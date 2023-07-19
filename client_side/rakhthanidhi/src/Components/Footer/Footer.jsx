@@ -1,5 +1,5 @@
 import "./Footer.css";
-function Footer() {
+function footer() {
     return (
         <div>
             <div className="Footerpage">
@@ -37,4 +37,4 @@ function Footer() {
 
     )
 }
-export default Footer;
+export default footer;

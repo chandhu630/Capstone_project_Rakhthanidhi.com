@@ -1,0 +1,168 @@
+.footerpage
+{
+    height:240px;
+    border:2px solid black;
+    margin-top:20px;
+    background-color: black;
+    display:flex;
+}
+.Footerpage
+{
+    height:300px;
+    border:2px solid black;
+    margin-top:20px;
+    background-color: black;
+}
+.why
+{
+    color:white;
+    margin-top:20px;
+    margin-right: px;
+    font-size:20px;
+}
+.benefits
+{
+    color:white;
+    margin-top:20px;
+}
+.increaseBlood
+{
+    color:white;
+    margin-top:20px;
+}
+.box
+{
+    border:0px solid red;
+    width:300px;
+    height:230px;
+    margin-left:140px;
+}
+.Secondbox
+{
+    width:250px;
+    height:230px;
+    margin-left:40px;
+    border: 0px solid red;
+}
+.AboutUs
+{
+    color:white;
+    margin-top:20px;
+    margin-right:105px;
+    font-size: 20px;
+}
+.gallery
+{
+    color:white;
+    margin-top:20px;
+    margin-right:140px;
+}
+.Notification
+{
+    color:white;
+    margin-top:20px;
+    margin-right:100px;
+}
+.bloodGroups
+{
+    color:white;
+    margin-top:20px;
+    margin-right:100px;
+}
+.video
+{
+    color:white;
+    margin-top:20px;
+    margin-right:100px;
+}
+.Process
+{
+    color:white;
+    margin-top:20px;
+    margin-right:25px;
+}
+.thirdbox
+{
+    width:250px;
+    height:230px;
+    border: 0px solid red;
+    margin-left:40px;
+
+}
+.Login
+{
+    color:white;
+    margin-top:20px;
+    margin-right:145px;
+    font-size:20px;
+}
+.register
+{
+    color:white;
+    margin-top:20px;
+    margin-right:50px;
+}
+.fourthbox
+{
+    width:300px;
+    height:230px;
+    border: 0px solid red;
+}
+.contact
+{
+    color:white;
+    margin-top:20px;
+    font-size:20px;
+    margin-right:100px;
+}
+.phone
+{
+    color:white;
+    margin-top:20px;
+    margin-right:30px;
+}
+.Email
+{
+    color:white;
+    margin-top:20px;
+    margin-left:px;
+}
+.display
+{
+    display:flex;
+    margin-top:20px;
+}
+.whatsapp
+{
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    border-radius:50%;
+    margin-left:0px;
+}
+.insta
+{
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    border-radius:50%;
+
+}
+.facebook
+{
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    border-radius:50%;
+
+}
+.lastline
+{
+    color:white;
+    border:0px solid black;
+    /* background-color: blue; */
+    margin-bottom:90px;
+    width:700px;
+    margin-left:400px;
+    color:red;
+}
