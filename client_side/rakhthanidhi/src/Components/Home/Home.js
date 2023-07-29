@@ -1,26 +1,44 @@
 import React from 'react';
 import './Home.css';
-function Home()
+import Navbar from '../Navbar/Nav';
+import Footerpage from "../Footer/Footer"
+import { homeInsidetext,DivtextText } from '../Constant/Footerconst';
+function Homecreate()
 {
     return(
         <div>
-                <div className="body">
-                        <div className="Body"> <div className="insidetext">“You Can’t Buy A Life For Someone With Money, But You Can 
-                        Save A Life Of Someone By Donating Blood To Him.”</div>
+         <Navbar></Navbar>
+        <div className="body">
+                <div className="Body">
+                        <div className="insidetext">
+                        {
+                                homeInsidetext.map((item)=>(
+                                <div key = {item} className="increaseBlood">{item}</div>
+                            ))
+                        }
                         </div>
-                        <div className="Explore"> <div className="More">Explore More</div></div>    
                 </div>
-                <div className="Side">
-                        <div className="Sideheading"><div className="Color">Why some times blood shortage Happens:</div><div className="info">
-                                Emergencies and unexpected events: Unforeseen emergencies,
-                                such as mass casualties from accidents or natural disasters,
-                                can quickly overwhelm the available blood supply in hospitals.
-                        <b> Read More....... </b></div></div>
+                <div className="Explore">
+                        <div className="More">Explore More</div>
+                </div>    
+        </div>
+        <div className="Side">
+                <div className="Sideheading">
+                <div className="Color">Why some times blood shortage Happens:</div>
+                        <div className="info">
+                        {
+                                 DivtextText.map((item) => (
+                                 <div key ={item}>{item}</div>   
+                                 ))      
+                        }      
+                        </div>
                 </div>
+        </div>
+        <Footerpage></Footerpage>
         </div>
     )
 }
-export default Home;
+export default Homecreate;
 
 
 

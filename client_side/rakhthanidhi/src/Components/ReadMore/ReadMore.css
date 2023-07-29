@@ -1,0 +1,38 @@
+.Bloodbank
+{
+    color:red;
+}
+.City
+{
+    color:red;
+}
+.bloodbox
+{
+    margin-left:20px;
+}
+ #image
+ {
+    width:200px;
+    height:200px;
+   
+ }
+ .BORDER
+ {
+    height:600px;
+    width:300px;
+    border:2px solid rgb(159, 22, 22);
+ }
+ .red
+ {
+    height:600px;
+    border:2px solid black;
+    width:300px;
+
+ }
+ .img
+ {
+    border:2px solid black;
+    width:400px;
+    height:400px;
+ }
+ 

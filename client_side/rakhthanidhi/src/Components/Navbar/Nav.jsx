@@ -1,24 +1,25 @@
 import React from "react";
-// import {Link} from "react-router-dom";
 import  './Nav.css';
 import { Link } from "react-router-dom";
-function nav()
+function Navbar()
 {
     return(
         <div>
-           <div className = "nav">
-           <div><img className = "drops"src = "/photos/drops.png" alt = ""></img></div>
-            <div className = "whyDonate"><Link to = "why">Why Donate Blood</Link></div>
-            <div className = "Aboutus"> <Link>About Us </Link></div>
-            <div className = "DonateNow"><Link>Bloodbanks </Link></div>
-            <div className = "ContactUs"><Link>Contact Us</Link></div>
-            <div className = "login"><Link>Signup </Link></div>
+              <div className = "navbar"> 
+                {/* <div><img  className="logo" src ="/photoconst [search, setSearch] = useState("");s/drops.png" alt =""/></div> */}
+                    <div><Link to ="/home" className="link"><img className = "drops" src =  "/photos/drops.png" alt = ""></img></Link></div>
+                    {/* <input className = 'input' type="text" onChange={(e) => { setSearch(e.target.value) }} placeholder='name' />      */}
+                    {/* <input className="inputtype" type ="text" placeholder ="🔍 Search..."/> */}
+                    <div className = "whyDonate"><Link to ="/why" className="link"> Why Donate Blood</Link></div>
+                    <div className = "Aboutus"><Link to ="/about" className="link"> About Us </Link></div>
+                    <div className = "DonateNow"><Link to ="/Bloodbanks" className="link"> Bloodbanks</Link> </div>
+                    <div className = "ContactUs"><Link to ="/Contact" className="link"> Contact Us</Link></div>
+                    <div className = "login"> <Link to ="/SignupPage" className="link"> Signup </Link></div>
           </div>
         </div>
     )
 }
-
-export default nav;
+export default Navbar;
 
 
 

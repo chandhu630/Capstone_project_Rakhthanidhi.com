@@ -1,40 +1,49 @@
+import { FooterConstant, FooterFive, FooterFourth, FooterSecond, FooterThird } from "../Constant/Footerconst";
 import "./Footer.css";
-function footer() {
+function Footerpage() {
     return (
         <div>
             <div className="Footerpage">
                 <div className="footerpage">
                     <div className="box">
-                        <div class="why">Why We Donate Blood</div>
-                        <div className="benefits">Benefits of Blood Donation</div>
-                        <div className="increaseBlood">How toincrease Blood cells</div></div>
+                        {
+                            FooterConstant.divContent.map((item,i)=>(
+                                <div key = {i} className="increaseBlood">{item}</div>
+                            ))
+                        }
+                    </div>
                     <div className="Secondbox">
-                        <div className="AboutUs">About Us</div>
-                        <div className="gallery">Gallery</div>
-                        <div className="Notification">Notifications</div>
-                        <div className="bloodGroups"> BloodGroups</div>
-                        <div className="video">Video Gallery</div>
-                        <div className="Process">Blood Donation Process</div>
+                        {
+                            FooterSecond.divSecond.map((item,i) =>(
+                                <div key  = {i} className="Process">{item}</div>
+                            ))
+                        }
                     </div>
                     <div className="thirdbox">
-                        <div className="Login">Login</div>
-                        <div className="register">Register as a donor</div>
+                        {
+                            FooterThird.divThird.map((item,i) =>(
+                                <div key = {i} className="register" >{item}</div>
+                            ))
+                        }
                     </div>
                     <div className="fourthbox">
-                        <div className="contact">Contact Us</div>
-                        <div className="phone">Phone No:9347449511</div>
-                        <div className="Email">E-mail:Rakhthanidhi@help.com</div>
+                        {
+                            FooterFourth.divFour.map ((item,i) => (
+                                <div key = {i}  className="Email"> {item}</div>
+                            ))
+                        }     
                         <div className="display">
-                            <img className="whatsapp" src="/photos/whatsapp.png" alt="" />
-                            <img className="insta" src="/photos/instagram.jpeg" alt="" />
-                            <img className="facebook" src="/photos/facebook.png" alt="" />
+                            {
+                                FooterFive.map ((item,i) => (
+                                    <img key ={i} src={item.image} className="whatsapp"/>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
-                <div className="lastline">Terms & condition |privacy policy |www.Rakhthanidhi.com</div>
+             <div className="lastline">Terms & condition |privacy policy |www.Rakhthanidhi.com</div>
             </div>
         </div>
-
     )
 }
-export default footer;
+export default Footerpage;
