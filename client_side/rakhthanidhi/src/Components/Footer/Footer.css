@@ -5,6 +5,8 @@
     margin-top:20px;
     background-color: black;
     display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Footerpage
@@ -95,6 +97,11 @@
     border:0px solid black;
     margin-bottom:90px;
     width:700px;
-    margin-left:400px;
+    margin-left:40%;
     color:red;
 } 
+.divSecond
+{
+    align-items: center;
+    justify-content: center;
+}

@@ -10,7 +10,7 @@ function Routing()
 { 
     return(
         <div>
-        <Routes>
+        <Routes className ="textAlign">
                 <Route path = "/home" Component = {Homecreate}/>
                 <Route path = "/Navbar" Component = {Navbar}/>
                 {/* <Route path = "/why"  Component = {}/> */}

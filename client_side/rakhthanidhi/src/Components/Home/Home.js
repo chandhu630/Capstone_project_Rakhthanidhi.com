@@ -13,26 +13,26 @@ function Homecreate()
                         <div className="insidetext">
                         {
                                 homeInsidetext.map((item)=>(
-                                <div key = {item} className="increaseBlood">{item}</div>
-                            ))
+                                <div key = {item} className="textquote">{item}</div>
+                                ))
                         }
                         </div>
                 </div>
-                <div className="Explore">
-                        <div className="More">Explore More</div>
-                </div>    
+        <div className="Explore">
+        <div className="More">Explore More</div>
+        </div>    
         </div>
         <div className="Side">
-                <div className="Sideheading">
-                <div className="Color">Why some times blood shortage Happens:</div>
-                        <div className="info">
-                        {
-                                 DivtextText.map((item) => (
-                                 <div key ={item}>{item}</div>   
-                                 ))      
-                        }      
-                        </div>
+        <div className="Sideheading">
+        <div className="Color">Why some times blood shortage Happens:</div>
+                <div className="info">
+                {
+                        DivtextText.map((item) => (
+                        <div key ={item}>{item}</div>   
+                        ))      
+                }      
                 </div>
+        </div>
         </div>
         <Footerpage></Footerpage>
         </div>
