@@ -1,4 +1,3 @@
-
 .nav
 {
     width:100%;
@@ -6,14 +5,12 @@
     border:1px solid white;
     display: flex;
     background-color:black;
-
 }
 .whyDonate
 {
     margin-left:200px;
     margin-top:  35px;
     color:white;
-
 }
 .Aboutus
 {
@@ -60,242 +57,390 @@
     opacity:23;
     justify-content: center;
     align-items: center;
-
 }  
 .Body
 {
-    width:900px;
-    height:100px;
-    border:2px solid silver;
-    /* background-color:rgb(169, 5, 5);  */
-    opacity:35px;
-    border-radius:15px;
-    margin-left:180px;
-    
+    border: px solid white;
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    font-size: 25px;
 }
-
-
 .Explore
 {
     width:150px;
     height:40px;
     margin-left:65%;
-    margin-top:20%;
-    background-color:rgb(169, 5, 5); 
+    font-family: 'Merriweather', serif;
+    margin-top:21%;
     border-radius:5px;
-    opacity:5;
-    border:1px solid white;
-}
+    opacity:0.9;
+    text-align: center;
+    box-shadow: 0 0 6px 0 #F27B13;    
+} 
 .More
 {
-    text-decoration: none;
-    font-size:20px;
-    margin-top:7px;
+    padding: 10px;
+    margin-top:70px;
     color:white;
+    cursor: pointer;
+    background-color: #32508E;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.More:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
 }
 
 .Side
 {
     width:100%;
-    height:200px;
-    margin-top:20px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(169, 5, 5);
+    height:360px;
+    margin-top:20px;    
 }
 .Sideheading
 {
-    margin-right:400px;
-    font-size:25px;
-    margin-top:25px;
-    
+    font-size:22px;
+    border: px solid black;
+    display: flex;
+    margin-left:65px;
+    margin-right:65px;
+   
 }
+.bloodshortage
+{
+    background-image:url("/public/photos/bloodshortage.png");
+    background-size: cover;
+    width:330px;
+    height: 320px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius:10px;
+}
+.width
+{
+    width:60%;
+    height:90%;
+    margin:auto;
+    background-color:  aliceblue;
+    border-radius: 5px;
+    border: px solid red;
+    padding: 10px;
+    margin-left: 50px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 0 0 6px 0 #103778;
+}
+.content
+{
+    line-height:1.5;
+    background-color: aliceblue;
+    font-family: 'Merriweather', serif;
+    opacity:1.6;
+    border:px solid black;
+    border-radius: 15px;
+    margin:auto;
+    overflow: hidden;
+}
+.long-text
+{
+    height :0px;
+    display: block;
+
+}
+.expand
+{
+    height :100%;
+    margin-bottom:10px;
+}
+.readmore
+{
+    border:none;
+    margin-left:280px;
+    font-size: 20px;
+    color:red;
+    padding:10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.readmore:hover{
+text-decoration: underline #32508E;
+}
+
 .info
 {
-   
-    width:750px ;
-    margin-left:20%;
+    width:60% ;
+    padding:10px;
     font-size:20px;
-    border:px solid black;
-    background-color: rgb(39, 39, 113);
+    border:0.5px solid silver;
+    border-radius:10px;
+    color:rgb(8, 7, 7);
+    margin: auto;
+    background-color:white;
 }
+
 .Color
 {
-    color:white;
-    margin-bottom:30px;
-    margin-left:50%;
+    color:red;
+    line-height: 1.0;
+    margin-left:20%;
     margin-right:5%;
-  
+    margin-top: 15px;
+    background-color:  aliceblue;
 }
-.footerpage
+.one_short
 {
-    height:240px;
-    border:2px solid black;
-    margin-top:20px;
-    background-color: black;
-    display:flex;
+    border:px solid black;
+    margin: auto;
 }
-.Footerpage
+.handshowdiv
 {
+    border:px solid red;
+    margin:auto;
+    display: flex;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 65px;
+    margin-right: 65px;
+    box-shadow:0 0 5px#103778 ;
+}
+.spider1
+{
+    width: 900px;;
     height:300px;
-    border:2px solid black;
-    margin-top:20px;
-    background-color: black;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 30px;
+    border: px solid black;
 }
-.why
+.spider2
 {
-    color:white;
-    margin-top:20px;
-    margin-right: px;
-    font-size:20px;
+    width:900px;
+    height:350px;
+    margin: auto;
+    margin-left: 23%;
+    margin-top: 90px;
+    border: px solid black;
 }
-.benefits
-{
-    color:white;
-    margin-top:20px;
+.spider{
+    width:900px;
+    height:340px;
+    border:px solid orange;
+    box-shadow: 0 0 5px 0 #103778;
 }
-.textquote
+.storing_flex
 {
-    color:white;
-    margin-top:20px;
-    /* border: 2px solid black; */
+    border:px solid black;
+    display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
+    margin-left:65px;
+    margin-right:65px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 #103778;
+}
+.wewere
+{
+    border:px solid black;
+    font-size: 30px;
+    width:900px;
+    height:100px;
+    margin:auto;
+    padding: 10px;
+    margin-top: 60px;
+    text-align: center;
+    color: #103778;
+    font-family: 'Merriweather', serif;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 #103778;
+}
+.colorredtext
+{
+    color:red;
+}
+.Donaring
+{
+    border:px solid black;
+    width:500px;
+    height:300px;
+    margin: auto;
+}
+.tenthousand
+{
+    border:px solid black;
+    font-size: 30px;
+    width:600px;
+    text-align: center;
+    color:red;
+    height:250px;
+    margin: auto;
+    margin-left: 10px;
+    border-radius: 5px;
     font-family: 'Merriweather', serif;
 }
-.box
+.donaringimg
 {
-    border:0px solid red;
+    margin-left: 100px;
+}
+.blacktext
+{
+    color:black;
+}
+
+.text_deco
+{
+    text-decoration:dashed;
+    border-bottom: dashed black;
+   
+}
+.display_twoimages
+{
+    display: flex;
+    border:px solid black;
+    margin:auto;
+    margin-top:40px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.firstImage
+{
+    border:px solid black;
+    margin:auto;
+}
+.secondImage_heart
+{
+    border:px solid black;
+    margin:auto;
+    width:400px;
+    height:300px;
+}
+.giveblood
+{
     width:300px;
-    height:230px;
-    margin-left:140px;
+    height:300px;
 }
-.Secondbox
+.threeseconds
 {
-    width:250px;
-    height:230px;
-    margin-left:40px;
-    border: 0px solid red;
+   
+    background-image: url("/public/photos/Donateblood.png");
+    opacity:1.9;
+    font-size: 30px;
+    background-size: cover;
+    margin-left:65px;
+    margin-right:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-family: 'Merriweather', serif;
+    border:px solid black;
+    opacity:0.9;
 }
-.AboutUs
+.everythree
 {
-    color:white;
-    margin-top:20px;
-    margin-right:105px;
-    font-size: 20px;
-}
-.gallery
-{
-    color:white;
-    margin-top:20px;
-    margin-right:140px;
-}
-.Notification
-{
-    color:white;
-    margin-top:20px;
-    margin-right:100px;
-}
-.bloodGroups
-{
-    color:white;
-    margin-top:20px;
-    margin-right:100px;
-}
-.video
-{
-    color:white;
-    margin-top:20px;
-    margin-right:100px;
-}
-.Process
-{
-    color:white;
-    margin-top:20px;
-    margin-right:25px;
-}
-.thirdbox
-{
-    width:250px;
-    height:230px;
-    border: 0px solid red;
-    margin-left:40px;
+    margin:auto;
+    height:60px;
+    width:500px;
+    margin-top: 10px;
+    padding:10px;
+    border:px solid black;
 
 }
-.Login
+.Torighttext
 {
-    color:white;
-    margin-top:20px;
-    margin-right:145px;
-    font-size:20px;
+    height:150px;
+    width:500px;
+    padding:10px;
+    margin: auto;
+    margin-top:130px;
+    border:px solid black;
 }
-.register
+.meansTop
 {
-    color:white;
-    margin-top:20px;
-    margin-right:50px;
+    margin: auto;
+    width:100px;
+    margin-top:90px;
+    color:red;
+    border:px solid black;
 }
-.fourthbox
+.bluecolor
 {
-    width:300px;
-    height:230px;
-    border: 0px solid red;
+    color:#32508E;
 }
-.contact
+.bloodtext
 {
-    color:white;
-    margin-top:20px;
-    font-size:20px;
-    margin-right:100px;
-}
-.phone
-{
-    color:white;
-    margin-top:20px;
-    margin-right:30px;
-}
-.Email
-{
-    color:white;
-    margin-top:20px;
-    margin-left:px;
-}
-.display
-{
-    display:flex;
-    margin-top:20px;
-}
-.whatsapp
-{
-    width:50px;
-    height:50px;
-    border:2px solid black;
-    border-radius:50%;
+    margin: auto;
+    font-size: 70px;
     margin-left:50px;
 }
-.insta
+.handspic
 {
-    width:50px;
-    height:50px;
-    border:2px solid black;
-    border-radius:50%;
+    margin: auto;
+    border:px solid black;
+    width:500px;
+    height:300px;
+}
+
+.textquote
+{
+   
+    margin-top:90px;
+    box-shadow: 0 0 6px 0 red;
+    background-color: #32508E;
+    opacity:0.9;
+    border-radius: 5px;
+    color:rgb(234, 242, 242);
+    font-family: 'Merriweather', serif;
+}
+
+.handsImagediv
+{
+    height:420px;
+    margin-top:55px;
+    margin-left: 65px;
+    margin-right: 65px;
+    border:px solid green;
+    
 
 }
-.facebook
-{
-    width:50px;
-    height:50px;
-    border:2px solid black;
-    border-radius:50%;
-
+.hands{
+    
+    height:340px;
+    padding:20px;
+    opacity:1.9;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:15px;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBxIfIXt5H1udNAQEPv9H0kB5f5PRTprY-mw&usqp=CAU");
+    margin-bottom: 50px;
 }
-.lastline
+.text
 {
+    margin: 20px auto auto auto ;
+    font-size: 25px;
     color:white;
-    border:0px solid black;
-    /* background-color: blue; */
-    margin-bottom:90px;
-    width:700px;
-    margin-left:400px;
-    color:red;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Merriweather', serif;
+    border:1px solid rgb(237, 219, 219);
+    align-items: center;
+    width:600px;
+    height:100px;
+    background-color: #32508E;
+    box-shadow: 0 0 6px  0#32508E;
+    opacity:0.9;
+}
+.redline
+{
+    border:5px solid red;
+    box-shadow: 2px 3px #F27B13;
+    height:330px;
 }

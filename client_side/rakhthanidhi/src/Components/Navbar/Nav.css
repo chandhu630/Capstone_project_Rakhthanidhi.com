@@ -1,19 +1,24 @@
-.drops
+.drops_circle
 {
     width:65px;
-    height:40px;  
-    margin-left:50px;  
-    /* border-radius:50%; */
+    height:45px;  
+    margin-left:30px;  
+    border-radius:50%;
+    /* border:2px solid black; */
+    box-shadow: 0 0 6px 0 white;
  
 }
 .navbar
 {
-    height:75px;
-    border:2px solid black;
+    height:70px;
+    width:100%;
+    box-shadow: 0 0 28px 0 black;
+    border-bottom:5px solid black;
     display: flex;  
-    background-color: black ;
+    background-color: #D96907 ;
     align-items: center;
     justify-content: center;
+    position:fixed;
 }
 .inputtype
 {
@@ -46,7 +51,12 @@
 }
 .link
 {
-    text-decoration: none;
-    color:red;
+    text-decoration:none;
+    color:white;
+    padding:15px;
 }
-
+.link:hover{
+    text-decoration:underline 3px solid #32508E;
+    /* border-bottom: 3px solid Blue; */
+    
+}

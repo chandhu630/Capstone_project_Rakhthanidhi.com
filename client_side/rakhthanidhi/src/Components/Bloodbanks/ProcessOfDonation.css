@@ -1,0 +1,91 @@
+.ProcessOfDonation
+{
+    border: px solid black;
+    font-family: 'Merriweather', serif;
+    line-height: 1.3;
+    margin-top: 70px;
+
+}
+.nav_process
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Process_Display,
+.Process_Display_one,
+.Process_Display_two
+{
+    display: flex;
+    border: px solid red;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding:10px;
+}
+.Process_Display_side_one,
+.Process_Display_side_two
+{
+    display: flex;
+    border:px solid red;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding:10px;
+}
+.process_Introduction,
+.ProcessPoint_one,
+.ProcessPoint_two
+{
+    border:px solid blue;
+    width:600px;
+    font-size: 18px;
+   
+}
+.ProcessPoint_side
+{
+    border:px solid blue;
+    width:600px;
+
+}
+li{
+    font-size: 18px;
+}
+.Process_Image_side
+{
+    width:400px;
+    height:250px;
+    margin-right:20px;
+}
+.video
+{
+    margin-left:20px;
+}
+.Process_Image,
+.Process_Image_one,
+.Process_Image_three
+
+{
+    width:400px;
+    height:250px;
+    margin-left:10px;
+}
+.process_heading
+{
+    color:#EF3F28;
+}
+.ProcessPoint_sidetwo
+{
+    border:px solid black;
+    width: 1020px;
+}
+.lastp_text
+{
+    margin-left: 10px;
+    text-align: center;
+}
+.pHeading
+{
+    color:#122851;
+}

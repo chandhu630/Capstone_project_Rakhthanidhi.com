@@ -7,7 +7,7 @@ function Navbar()
         <div>
               <div className = "navbar"> 
                 {/* <div><img  className="logo" src ="/photoconst [search, setSearch] = useState("");s/drops.png" alt =""/></div> */}
-                    <div><Link to ="/home" ><img className = "drops" src =  "/photos/drops.png" alt = "" /></Link></div>
+                    <div><Link to ="/home" ><img className = "drops_circle" src =  "/photos/drops.png" alt = "" /></Link></div>
                     {/* <input className = 'input' type="text" onChange={(e) => { setSearch(e.target.value) }} placeholder='name' />      */}
                     {/* <input className="inputtype" type ="text" placeholder ="🔍 Search..."/> */}
                     <div className = "whyDonate"><Link to ="/why" className="link"> Why Donate Blood</Link></div>

@@ -1,86 +1,109 @@
-import React, { useState,useEffect } from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import "./Bloodbanks.css";
 import { getAllblood } from '../Redux/ProductReducer/Action';
 import { Link } from "react-router-dom";
+import Navbar from '../Navbar/Nav';
 import Footerpage from '../Footer/Footer';
+
 function Bloodbanks() {
     const [search, setSearch] = useState("");
-    const dispatch = useDispatch()
-    const bloodData = useSelector(state => state.blood.bloodData)
-    console.log(bloodData)
+    const dispatch = useDispatch();
+    const bloodData = useSelector(state => state.blood.bloodData);
+    const [currentPage, setCurrentPage] = useState(1);
+    const bloodsPerPage = 10;
+
     useEffect(() => {
-        dispatch(getAllblood())
-    }, [])
+        dispatch(getAllblood());
+    }, [dispatch]);
+
+    const indexOfLastBlood = currentPage * bloodsPerPage;
+    const indexOfFirstBlood = indexOfLastBlood - bloodsPerPage;
+    const currentBloods = bloodData
+        ?.filter((item) => item.district.toLowerCase().includes(search.toLowerCase()))
+        ?.slice(indexOfFirstBlood, indexOfLastBlood);
+
+    const pageNumbers = [];
+    for (let i = 1; i <= Math.ceil(bloodData?.length / bloodsPerPage); i++) {
+        pageNumbers.push(i);
+    }
+
+    const handlePageClick = (pageNumber) => {
+        setCurrentPage(pageNumber);
+    };
+
+    const handleNextPage = () => {
+        setCurrentPage((prevPage) => prevPage + 1);
+    };
+
+    const handlePrevPage = () => {
+        setCurrentPage((prevPage) => prevPage - 1);
+    };
+
     return (
         <div>
-            <div>
-                <div>    
-                <nav className='inputflex'>            
-                        <div><Link  to ="/home" className="link"><img className = "drops" src = "/photos/drops.png" alt = "" /></Link></div>
-                        <div className = "whyDonate"><Link to ="/why" className="link"> Why Donate Blood</Link></div>
-                        <div className = "Aboutus"><Link to ="/about" className="link"> About Us </Link></div>
-                        <div className = "DonateNow"><Link to ="/Bloodbanks" className="link"> Bloodbanks</Link> </div>
-                        <div className = "ContactUs"><Link to ="/Contact" className="link"> Contact Us</Link></div>
-                        <div className = "login"> <Link to ="/SignupPage" className="link"> Signup </Link></div>
-                        <div className='inputmain'>
-                        <input className = 'input' type="text" onChange={(e) => { setSearch(e.target.value) }} placeholder='🔍 Search...' />
-                        </div>
-                </nav>
-            </div>
-                <div className='flex'>
-                    <select className='select'>
-                        <option>Find Blood Banks By Districts</option>
-                        <option> Alluri Sitharama Raju  </option>
-                        <option>Anakapalli </option>
-                        <option>Chittoor </option>
-                        <option>East Godavari</option>
-                        <option>Eluru </option>
-                        <option>Guntur </option>
-                        <option>Kakinada </option>
-                        <option>Konaseema</option>
-                        <option>Krishna </option>
-                        <option>Kurnool</option>
-                        <option>Nandhyal</option>
-                        <option>NTR</option>
-                        <option>Palnadu </option>
-                        <option>Parvathipuram Manyam </option>
-                        <option>Prakasam</option>       
-                        <option>Srikakulam </option>
-                        <option>Sri Potti Sriramulu Nellor</option>
-                        <option>Tirupati </option>
-                        <option>Visakhapatnam </option>
-                        <option>Vizianagaram</option>
-                        <option>West Godavari</option>
-                        <option>Kadapa </option>
-                        <option> Y.S.R </option>
-                </select>
-                
-            {
-                bloodData?.filter((item) => 
-                {
-                    if (item.district.toLowerCase().includes(search.toLowerCase())) 
-                    {
-                        return item;
-                    }
-                })?.map(({ hospital_Or_BloodBankName, current_City, district, contact_No, state }) =>
-                    <div className='bloodbox'>
-                        <div className='time'>
-                            <div className='Bloodbank'><b className='black'>Bloodbank : </b> {hospital_Or_BloodBankName}</div>
-                            <div className='City'><b>City : </b> {current_City} </div>
-                            <div className='District' ><b>District : </b> {district} </div>
-                            <div className='Contact'><b> 📞: </b> {contact_No} </div>
-                            <div className='state'><b>🏢 State : </b> {state},India </div>  
-                            <button className='moreInformation' >
-                            <Link to ="/read" className='colorwhite'>Read More Information </Link></button>
-                        </div>
+            
+           <div className='divnav'> <Navbar  className='navbar'/></div>
+        
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div className='inputmain'>
+                        <span>Search for your district bloodbanks here</span><input className='input' type="text" onChange={(e) => { setSearch(e.target.value) }} placeholder='🔍 Search...' />
                     </div>
-                )
-            }
-                <Footerpage></Footerpage>
+            {currentBloods?.map(({ hospital_or_blood_bank_name, current_city, district, contact_no, state }, index) => (
+                <div className='bloodbox' key={index}>
+                    <div className='time'>
+                        <div className='Bloodbank'><b className='black'>Bloodbank : </b> <b className='Hospital_Name'> {hospital_or_blood_bank_name}</b></div>
+                        <div className='City'><b>City : </b> {current_city} </div>
+                        <div className='District' ><b>District : </b> {district} </div>
+                        <div className='Contact'><b> 📞: </b> {contact_no} </div>
+                        <div className='state'><b>🏢 State : </b> {state}, India </div>
+                        <Link to={`/read/${index}`}>
+                            <button className='moreInformation'>Read More Information</button>
+                        </Link>
+
+                    </div>
+                </div>
+            ))}
+            <hr className='horigental'></hr> 
+            <div className="pagination">
+                <button onClick={handlePrevPage} disabled={currentPage === 1}>
+                    Previous
+                </button>
+                {pageNumbers.map((number) => (
+                    <button key={number} onClick={() => handlePageClick(number)}>
+                        {number}
+                    </button>
+                ))}
+
+               <button onClick={handleNextPage} disabled={currentPage === pageNumbers.length}>
+                    Next
+                </button>
+            </div>
+
+            <div></div>
+            <hr className='horigental'></hr> 
+           
+            <div className="contact-left">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1093537634642!2d77.53039017562196!3d12.964853815025114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dd8ade7d69f%3A0x2cd2c94cf96ba5e9!2sJTD%20Foundation!5e0!3m2!1sen!2sin!4v1699280110891!5m2!1sen!2sin"
+            width ="800"
+            height="350"
+            className='google'
+            style={{ border: '0' }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="My Google Map"
+            />
+            <hr className='horigental'></hr>
         </div>
+            <Footerpage/>
         </div>
-        </div>
-    )
+    );
 }
+
 export default Bloodbanks;

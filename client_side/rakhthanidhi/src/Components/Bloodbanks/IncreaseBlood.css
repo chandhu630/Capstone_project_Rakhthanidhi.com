@@ -1,0 +1,92 @@
+.IncreaseOfBloodDonation
+{
+    border:px solid pink;
+    font-family: 'Merriweather', serif;
+
+}
+li{
+    font-size: 18px;
+}
+.IncreaseHeading
+{
+    color:#EF3F28;
+}
+.IncreasebloodDonation_flex_one
+{
+    border:px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Increase_Introduction_one
+{
+    width: 500px;
+    line-height: 1.3;
+    padding:10px;
+
+}
+.navbarPagelink
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.IncreasebloodDonation_flex
+{
+    display: flex;
+    margin:auto;
+    border:px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.IncreasebloodDonation_flex_two,
+.IncreasebloodDonation_flex_three
+{
+    display: flex;
+    margin:auto;
+    border:px solid black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Increase_Introduction
+{
+    border:px solid yellow;
+    width: 500px;
+    height:300px;
+    line-height: 1.3;
+    padding:10px;
+    font-size: 18px;
+}
+.cina,
+.video
+{
+    border:px solid black;
+    width:400px;
+    height:250px;
+    margin-left: 20px;
+
+}
+
+.Allpoints,
+.Allpoints_one
+{
+    width:500px;
+    border:px solid brown;
+}
+.image_All,
+.image_All_one
+{
+    width:400px;
+    height:250px;
+    border:px solid red;
+    margin-left: 20px;
+}
+.Increasecolor
+{
+    color: #122851 ;
+}

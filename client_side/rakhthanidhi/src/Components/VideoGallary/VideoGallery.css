@@ -1,0 +1,17 @@
+.centerAlign
+{
+    justify-content: center;
+    align-items: center;
+   
+} 
+.video_GALLERY
+{
+    margin: auto;
+}
+
+.video_heading
+{
+    color:darkblue;
+    margin: auto;
+    text-decoration:underline 2px solid red;
+}
