@@ -10,8 +10,8 @@ function ProcessOfBloodDonation()
                 
                 <div className="Process_Display">
                     <div className="process_Introduction">
-                    <h1 className="process_heading">What is the  blood donation process</h1>
-                    The blood donation process typically involves several steps to ensure the safety of both the donor and the recipient. Here is a general overview of the blood donation process:
+                        <h1 className="process_heading">What is the  blood donation process</h1>
+                        The blood donation process typically involves several steps to ensure the safety of both the donor and the recipient. Here is a general overview of the blood donation process:
                     </div>
                     <div className="video">
                         <iframe
@@ -24,6 +24,7 @@ function ProcessOfBloodDonation()
                         ></iframe>
                     </div>
                 </div>
+                
                 <div className="Process_Display_one">
                     <div className="ProcessPoint_one">
                         <h2 className="pHeading">1. Registration:</h2>
@@ -33,7 +34,9 @@ function ProcessOfBloodDonation()
                         <h2 className="pHeading">3. Donor Consent:</h2>
                         <ul><li>You will be asked to review and sign a consent form, indicating that you understand the donation process and that you meet the eligibility criteria.</li></ul>
                     </div>
-                    <div className="Process_Image"><img className="Process_Image" src ="photos/imag2.jpeg" alt ="" /></div>
+                    <div className="Process_Image">
+                        <img className="Process_Image" src ="photos/imag2.jpeg" alt ="" />
+                    </div>
                 </div>
 
                 <div className="Process_Display_side_one">
@@ -48,7 +51,6 @@ function ProcessOfBloodDonation()
                         <h2 className="pHeading">6. Rest and Refreshment:</h2>
                         <ul><li>After donating, you will be encouraged to rest for a short period and have a snack or drink to help replenish your energy.</li></ul>
                     </div>
-                   
                 </div>
 
                 <div className="Process_Display_two">
@@ -60,10 +62,12 @@ function ProcessOfBloodDonation()
                         <h2 className="pHeading">9. Donation Types:</h2>
                         <ul><li>There are different types of blood donations, including whole blood donation, platelet donation, plasma donation, and double red cell donation. The specific process may vary depending on the type of donation.</li></ul>                 
                     </div>
-                    <div className="Process_Image_three"><img className="Process_Image_three" src ="/photos/image9.jpeg" alt ="" /></div>
+                    <div className="Process_Image_three">
+                        <img className="Process_Image_three" src ="/photos/image9.jpeg" alt ="" />
+                    </div>
                 </div>
+
                 <div className="Process_Display_side_two">
-                  
                     <div className="ProcessPoint_sidetwo">
                         <h2 className="pHeading">10. Record Keeping:</h2>
                         <ul><li>nformation about your donation, including blood type and any relevant health information, is recorded. This information is kept confidential and is used to ensure the safety of the blood supply.</li></ul>
@@ -71,9 +75,9 @@ function ProcessOfBloodDonation()
                         <ul><li>Some blood donation organizations may follow up with donors to provide information about their blood and how it is used to help patients.</li></ul>
                         <p className="lastp_text">It's important to note that the eligibility criteria for blood donation vary by location and organization. Factors such as age, weight, health history, and recent travel may impact eligibility. 
                             If you have specific questions about the blood donation process or your eligibility to donate, it's recommended to contact your local blood donation center or organization.</p>
-
                     </div>
                 </div>
+
                 <Footerage />
                  
             </div>

@@ -2,7 +2,6 @@
 {
     border:px solid pink;
     font-family: 'Merriweather', serif;
-
 }
 li{
     font-size: 18px;
@@ -17,7 +16,6 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .Increase_Introduction_one
 {
@@ -41,7 +39,6 @@ li{
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-
 }
 .IncreasebloodDonation_flex_two,
 .IncreasebloodDonation_flex_three
@@ -51,7 +48,6 @@ li{
     border:px solid black;
     justify-content: center;
     align-items: center;
-    
 }
 .Increase_Introduction
 {
@@ -69,7 +65,6 @@ li{
     width:400px;
     height:250px;
     margin-left: 20px;
-
 }
 
 .Allpoints,

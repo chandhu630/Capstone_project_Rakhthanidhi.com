@@ -1,9 +1,11 @@
 import "./ConnectDoctors.css"
 import Footerpage from "../Footer/Footer";
+import Navbar from "../Navbar/Nav";
 function ConnectDoctorspage()
 {
     return(
         <div> 
+          <div className="connectNavabar"><Navbar/></div>
             <div className="connectPage">
               <h2 className="hemaheading">Top Hematologists In our surroundings</h2>
               <div className="connectDisplay">

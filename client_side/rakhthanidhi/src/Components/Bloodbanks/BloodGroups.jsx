@@ -13,7 +13,7 @@ function BloodGroupspage()
         }
     return(
         <div>
-            <div className="BloodNavbar"><Navbar /></div> 
+        <div className="BloodNavbar"><Navbar /></div> 
            <div className="BloodGpage">
                     <div className="BloodGroup_Flex">
                             <div className="BloodGroup_Introduction">
@@ -115,10 +115,7 @@ function BloodGroupspage()
                             <div  className="history_bulb_space"><img className="history_bulb_space" src= " photos/bloodpacks.png" alt = "" /></div>
                         </div>
                         </div>
-                        )}
-                       
-                    
-
+                        )}      
              </div>
            <Footerpage />
         </div>

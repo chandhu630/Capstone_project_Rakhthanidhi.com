@@ -34,19 +34,16 @@
 {
     
     border:px solid blue;
+    margin-top:90px;
 }
 
 .doctorsDiv_two
 {
     margin-left: 15px;
-   
-
 }
 .doctorsDiv_three
 {
     margin-left: 15px;
-   
-
 }
 .doctors_Store
 {
@@ -97,6 +94,12 @@
     background-image: linear-gradient(to top,  #18ade3 , #016E95  );
     border-radius: 20px;
     box-shadow: 0 0 5px 0  rgb(221, 33, 64);
+}
+.connectNavabar
+{
+    position: fixed;
+    top:0%;
+    left:0%;
 }
 
   

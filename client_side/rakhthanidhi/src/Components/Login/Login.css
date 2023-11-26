@@ -4,8 +4,6 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    /* margin: 10% auto ; */
-    /* margin-top:10%; */
     border:px solid red;
 }
 .loginpage
@@ -16,7 +14,6 @@
     margin-top:10%;
     box-shadow: 2px 2px blue;
     border:2px solid rgb(171, 171, 177);
-    /* background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg"); */
     /* background-image: linear-gradient(to bottom, #018F9B , #FAA56E ); */
 }
 .login_image
@@ -45,7 +42,6 @@
     border-left:none;
     border-right:none;
     font-size: 17px;
-    
 }
 .loginpassword
 {
@@ -55,7 +51,6 @@
     border-top:none;
     border-left:none;
     border-right:none;
-
 }
 .loginpageHeading
 {
@@ -72,7 +67,6 @@
     margin-top:10px;
     cursor: pointer;
     background-color: chocolate;
-
 }
 
 .forgotpassword

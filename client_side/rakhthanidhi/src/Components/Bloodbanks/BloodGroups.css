@@ -123,8 +123,6 @@ custom-list
     margin-left:20px;
     border:px solid black;
  }
- 
- 
  .custom_Line li::marker
  {
     color:dodgerblue;

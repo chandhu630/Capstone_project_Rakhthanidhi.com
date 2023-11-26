@@ -10,7 +10,6 @@
 {
   border:px solid black;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   margin-top: 50px;
@@ -21,8 +20,6 @@
   margin-left: 65px;
   height: 400px;
   font-family: 'Merriweather', serif;
-  /* background-image: linear-gradient(to top, #FAA56E, #EF3F28,#FAA56E  ); */
-
 }
 .back_color
 {

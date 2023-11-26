@@ -17,6 +17,7 @@ function App() {
     <div className="App">  
     {/* <ProcessOfBloodDonation /> */}
         <Routing />
+        {/* <h2>Om Sai Ram</h2> */}
         {/* <BloodGroupspage/> */}
         {/* <BenefitsOfDonation/> */}
         {/* <ConnectDoctorspage/> */}

@@ -18,9 +18,7 @@ span{
     border:px solid red;
     position: fixed;
     top: 0;
-    left: 0;
-
-    
+    left: 0;  
 }
 .map
 {
@@ -28,19 +26,7 @@ span{
     height:200px;
     border:2px solid black;
 }
-/* CSS for the navbar */
 
-/* .inputmain
-{
-    border:2px solid red;
-    height:100px;
-    width:500px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    position: fixed;
-    margin:auto;
-} */
 .inputmain {
     border: px solid red;
     height: 100px;
@@ -68,7 +54,6 @@ span{
     background-color: #fff;
 }
 
-/* Bloodbank information styling */
 .time {
     flex: 1;
 }
@@ -77,18 +62,13 @@ span{
     font-size: 18px;
    
 }
-
 .City,
 .District,
 .Contact,
 .state {
     font-size: 17px;
-    /* color: #555; */
     line-height: 1.5;
-    /* --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
 }
-
-
 .moreInformation:hover{
     background-color: #FF7A48;
     
@@ -100,16 +80,15 @@ span{
     width:200px;
     padding:10px;
     margin-left: 470px;
-    background-color: #151F30;
+    background-color: #5bc0de;
+    border:2px solid #5bc0de;
     border:px solid black;
-    
 }
 .Hospital_Name
 {
     color: red;
 
 }
-/* Pagination styling */
 .pagination {
     margin-top: 20px;
     display: flex;
@@ -117,7 +96,7 @@ span{
 }
 
 .pagination button {
-    background-color: #151F30;
+    background-color: #5bc0de;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -153,8 +132,6 @@ span{
 }
 .contact-left
 {
-    
-    
     text-align: center;
     margin-top: 50px;
     border:px solid black;

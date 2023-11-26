@@ -21,36 +21,29 @@ function Homecreate()
                         }
                         </div>
                 </div>
-        <div className="Explore">
-        <div className="More"> <Link className="More" to="/why">Explore More</Link></div>
-        </div>    
+                <div className="Explore">
+                        <div className="More"> <Link className="More" to="/why">Explore More</Link></div>
+                </div>    
         </div>
         <div className='one_short'>
-                {/* <div className='handshowdiv'>
-                        <img className='handspic' src ="photos/handshow.png" alt ="chandhu" />
-                        <div className='bloodtext'> Blood <i className='bluecolor'>Donation ?</i></div>
+                
+                <div className='wewere'><b>WE ARE NOT DOCTORS OR SUPERHERO BUT WE CAN SAVE SOMEONE's LIFE </b></div> 
+                <div className='storing_flex'>
+                        <div className='Donaring'><img className = "donaringimg" src = "photos/Donating.png" alt= "" /></div>
+                        <div className='tenthousand'>10,000 CHIlDREN BORN IN INDIA EVERY YEAR WHO SUFFERED WITH <quotes className ="text_deco">THALASSEMIA </quotes>
+                        <br></br><b className='blacktext'>BUT</b> <br></br>99% OF THEM  DEAD BEFORE TEENAGE BECAUSE OF<quotes className ="text_deco"> DIFICIENCY OF BLOOD</quotes></div>
                 </div>
-                <div className='spider1'><img className='spider' src = "photos/spider.1png" alt = "chandhu" /></div>
-                <div className='spider2'><img className='spider' src = "photos/spider2.png" alt = "chandhu" /></div>
-                 */}
-
-                        <div className='wewere'><b>WE ARE NOT DOCTORS OR SUPERHERO BUT WE CAN SAVE SOMEONE's LIFE </b></div> 
-                        <div className='storing_flex'>
-                                <div className='Donaring'><img className = "donaringimg" src = "photos/Donating.png" alt= "" /></div>
-                                <div className='tenthousand'>10,000 CHIlDREN BORN IN INDIA EVERY YEAR WHO SUFFERED WITH <quotes className ="text_deco">THALASSEMIA </quotes>
-                                <br></br><b className='blacktext'>BUT</b> <br></br>99% OF THEM  DEAD BEFORE TEENAGE BECAUSE OF<quotes className ="text_deco"> DIFICIENCY OF BLOOD</quotes></div>
-                        </div>
-                       
-                        <div className='threeseconds'>
-                                <div className='everythree'>IN EVERY 3 SECONDS SOME ONE NEEDS BLOOD</div> <div className='meansTop'>MEANS</div>
-                                <div className='Torighttext'>SOME ONE NEEDS OF IN EVERY 3 SECONDS
-                                <br></br>
-                                 <i className='colorredtext'>YOU WILL RECOVER WITHIN 56 DAYS AFTER BLOOD DONATION</i></div>
-                        </div>
-                        <div className='display_twoimages'>
-                                <div className='firstImage'><img src ="photos/savelife.png" alt ="chandhu" /> </div>
-                                <div className='secondImage_heart'><img  className="giveblood" src ="photos/Giveblood.png" alt = "chandhu " /></div> 
-                        </div>         
+                
+                <div className='threeseconds'>
+                        <div className='everythree'>IN EVERY 3 SECONDS SOME ONE NEEDS BLOOD</div> <div className='meansTop'>MEANS</div>
+                        <div className='Torighttext'>SOME ONE NEEDS OF IN EVERY 3 SECONDS
+                        <br></br>
+                                <i className='colorredtext'>YOU WILL RECOVER WITHIN 56 DAYS AFTER BLOOD DONATION</i></div>
+                </div>
+                <div className='display_twoimages'>
+                        <div className='firstImage'><img src ="photos/savelife.png" alt ="chandhu" /> </div>
+                        <div className='secondImage_heart'><img  className="giveblood" src ="photos/Giveblood.png" alt = "chandhu " /></div> 
+                </div>         
         </div>
 
         <div className="Side">

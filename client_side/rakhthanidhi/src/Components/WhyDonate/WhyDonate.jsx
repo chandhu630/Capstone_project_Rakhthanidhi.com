@@ -1,5 +1,4 @@
 
-
 import React, { useState, useEffect } from "react";
 import './WhyDonate.css';
 import { useDispatch, useSelector } from "react-redux";
@@ -56,7 +55,6 @@ function WhyDonateBlood() {
         <div>{renderQuestionSet(21,22)}</div> </Link></div>
       </div>
         
-
       <div className="why_flex_first">
         <div className="Storing_First_two"><Link className="nextlink" to ="/next">
         <div ><img className = "Image_Width_why" src = "photos/cancerpic.png" alt = "chandhu" /></div>
@@ -69,7 +67,6 @@ function WhyDonateBlood() {
       </div>
       <hr className="HrLine"></hr>
       </div>
-
 
       <div className="firstDiv"> 
         <div className="image_que_one"></div>

@@ -38,7 +38,6 @@ function About()
             </div>
 
             <div className="DisplayFlexOftwo">
-
                     <div className="whoarewebox">
                         <div className="insidewho">
                             <img  className = "groupPic" src ="/photos/goal.png" alt ="who" />
@@ -50,7 +49,6 @@ function About()
                     </div>
             </div>
             <hr className="horigental_Line"></hr>
-
             <div className="DisplayFlexFLEX">
                <div className="insideInfoOfFour">
                <div className="divcontainer"><img  className="fourpicsImage" src = "/photos/accident.png" alt ="accident" /></div>
@@ -86,7 +84,6 @@ function About()
                 alcohol consumption, and acquiring basic first aid skills are practical steps to enhance overall road safety.
                 While blood donation directly aids accident victims, a holistic approach involving education, policy advocacy, 
                 and community involvement is essential to address the complex issue of road accidents in the country.</div>
-                <hr className="horigental_Line -top"></hr>
 
             <Footerpage />
 

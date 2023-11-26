@@ -209,30 +209,6 @@ text-decoration: underline #32508E;
     margin-right: 65px;
     box-shadow:0 0 5px#103778 ;
 }
-.spider1
-{
-    width: 900px;;
-    height:300px;
-    margin: auto;
-    margin-left: 5%;
-    margin-top: 30px;
-    border: px solid black;
-}
-.spider2
-{
-    width:900px;
-    height:350px;
-    margin: auto;
-    margin-left: 23%;
-    margin-top: 90px;
-    border: px solid black;
-}
-.spider{
-    width:900px;
-    height:340px;
-    border:px solid orange;
-    box-shadow: 0 0 5px 0 #103778;
-}
 .storing_flex
 {
     border:px solid black;
@@ -374,19 +350,7 @@ text-decoration: underline #32508E;
 {
     color:#32508E;
 }
-.bloodtext
-{
-    margin: auto;
-    font-size: 70px;
-    margin-left:50px;
-}
-.handspic
-{
-    margin: auto;
-    border:px solid black;
-    width:500px;
-    height:300px;
-}
+
 
 .textquote
 {

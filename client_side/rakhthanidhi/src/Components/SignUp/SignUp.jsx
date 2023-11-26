@@ -12,7 +12,6 @@ function Signup ()
                     <input type ="text" className="password" placeholder="Password"/>
                     <input type ="text" className="Phone"  placeholder = "Phone Number"/>
                     <input type ="text" className ="Email_Sign" placeholder ="Email Address"/>
-                    {/* <input type ="text" className ="Bloodgroup" placeholder ="Blood Group(optional)"/> */}
                     <br></br>
                     <button className="register">Register</button>
                     <div className="member">Already have Account <b className="login"><Link  to = "/login" className ="">Login</Link></b></div>
