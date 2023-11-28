@@ -1,0 +1,78 @@
+.forgotpage
+{
+    width:500px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border:px solid black;
+    margin-top: 15%;
+}
+/* body{
+    background-color: ;
+} */
+.forgotbox
+{
+    margin: auto;
+    border:1px solid rgb(245, 127, 127);
+    width:350px;
+    height:220px;
+    border-radius: 15px;
+    border-right:none;
+    border-bottom:none;
+    box-shadow: 0 0 2px 0 blue;
+    /* background-image: linear-gradient(to bottom right, #016E95 , #ef7c6c ); */
+}
+.forgot_Image
+{
+    background-image: url("/public/photos/forgot_image.png");
+    background-size: cover;
+    width:1000px;
+    height:500px;
+    border: 0.5px solid rgb(114, 112, 112);
+    margin: auto; 
+}
+
+.newpassword
+{
+    padding:10px 31px ;
+    margin-top: 10px;;
+    font-size: 18px;
+    margin-left:25px;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    text-align:center;
+}
+.confirmpassword
+{
+   
+    padding:10px 31px ;
+    margin-top: 10px;;
+    font-size: 18px;
+    margin-left:25px;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    text-align:center;
+
+}
+.entire
+{
+    font-size: 18px;
+    text-align: center;
+    padding:10px;
+}
+.resetpassword
+{
+    padding:10px 62px ;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left:25px;
+    text-align:center;
+
+}
+.resetpassword:hover{
+    background-color: rgb(246, 81, 16);
+}

@@ -1,0 +1,44 @@
+.center
+{
+    text-align: center;
+    justify-content: center;
+    border:px solid black;
+    /* background-color: black; */
+
+}
+.displayFlexphoto
+{
+    display: flex;
+    margin-top:30px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.startpic
+{
+    width:350px;
+    height:250px;
+    border:2px solid #D96907;
+    margin-left:20px;
+}
+.startpic:hover{
+    border:2px solid deepskyblue;
+}
+.image:hover
+{
+    border:2px solid deepskyblue;
+}
+.image
+{
+    width:350px;
+    height:250px;
+    margin-left:20px;
+    border:2px solid #D96907;
+}
+.cursor:hover
+{
+  
+    cursor: pointer;
+    opacity: 0.9;
+}

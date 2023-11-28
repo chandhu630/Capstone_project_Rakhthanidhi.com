@@ -1,0 +1,105 @@
+.connectDisplay
+{
+    display: flex;
+    border:px solid red;
+    margin: auto;
+
+}
+.hydDoctor
+{
+    border: 1px solid  #FAA56E ;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.kaDoctor
+{
+    border: 1px solid  #FAA56E ;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.apDoctor
+{
+    border: 1px solid  #FAA56E ;
+    width:150px;
+    height:150px;
+    /* margin-left: 20px; */
+    border-radius: 50%;
+    margin: auto;
+}
+.connectPage
+{
+    
+    border:px solid blue;
+    margin-top:90px;
+}
+
+.doctorsDiv_two
+{
+    margin-left: 15px;
+}
+.doctorsDiv_three
+{
+    margin-left: 15px;
+}
+.doctors_Store
+{
+    border:px solid green;
+    display: flex;
+    margin: auto;
+}
+.img_middle
+{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.doc_width
+{
+    width: 300px;
+    border:1px solid rgb(243, 234, 234);
+    border-radius: 20px;
+
+}
+.doc_width:hover{
+    background-image: linear-gradient(to top,pink, #016E95  );
+    cursor: pointer;
+    margin-top:60px
+}
+.Doctorsinfo
+{
+    border:px solid rgb(245, 238, 238);
+    padding: 10px;
+    line-height: 1.5;
+    background-color: aliceblue;
+   
+}
+.hemaheading
+{
+    margin: auto;
+    line-height: 2.5;
+    margin-left: 35%;
+}
+.middle_suggestion
+{
+    width:540px;
+    height:100px;
+    padding:15px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 60px;
+    line-height: 1.2;
+    background-image: linear-gradient(to top,  #18ade3 , #016E95  );
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0  rgb(221, 33, 64);
+}
+.connectNavabar
+{
+    position: fixed;
+    top:0%;
+    left:0%;
+}
+
+  
