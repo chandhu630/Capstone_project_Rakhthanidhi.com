@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebRoutesVitals';
 import {Provider} from 'react-redux';
-import { store } from './Components/Redux/Store';
+import { store } from './Components/redux/Store';
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

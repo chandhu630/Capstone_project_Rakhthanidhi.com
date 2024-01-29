@@ -1,0 +1,48 @@
+.Bloodbank
+{
+    color:var( --secondary-color);
+}
+.City_color
+{
+    color:var(--primary-color);
+}
+.read_top
+{
+  margin-top: 150px;
+}
+ #image
+ {
+    width:300px;
+    height:180px; 
+    border:px solid black;
+ }
+ .wholediv
+ {
+    border:px solid red;
+    display:flex ;
+    margin: auto;
+    margin-top:100px;
+    align-items: center;
+    justify-content: center;
+ }
+ .bloodbox_div
+ {
+   border:px solid black;
+   height:250px;
+   width:510px;
+   margin-top: 0px;
+   margin-left:30px;
+ }
+ .inside_table_box
+ {
+   box-shadow: 0 0 6px 0 var(--secondary-color);
+   height:160px;
+   margin-top:17px;
+   padding:10px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius:15px;
+ }
+ .hospital_details
+ {
+  padding:10px;
+ }

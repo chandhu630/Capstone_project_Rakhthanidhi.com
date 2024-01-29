@@ -1,0 +1,171 @@
+
+.Conatctus_box
+{
+    height:100vh;
+    background-image:url("/public/photos/background_color.png"); ;
+    width:1100px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.Contact_flex
+{
+    display: flex;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    border:px solid red;
+    position: relative;
+    z-index: 1;
+    bottom:190px;
+
+}
+.contact_message_box
+{
+    background-color: var(--white-nav-text);
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    border:px solid black;
+    padding:30px;
+    text-align: center;
+}
+.Enter_name_conatct ,
+.Enter_emailAddress_conatact
+{
+    padding:15px 0px 15px 10px;
+    text-align: center;
+    font-size:18px;
+    margin-top: 10px;
+    border:none;
+    width:450px;
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+}
+.Enter_your_msg_contact
+{
+    padding:10px 0px 50px 0px;
+    margin-top: 10px;
+    border:none;
+    font-size:18px;
+    width:460px;
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.submit
+{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size:18px;
+    background-color:var( --primary-color);
+    width:170px;
+    height:50px;
+    color:var(--white-nav-text);
+    margin: auto;
+    margin-top:20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.Swapna_image
+{
+    width:700px;
+    height:550px;
+    border:px solid black;
+    background-image: url("/public/photos/imge.png");
+    background-size: cover;
+    margin: auto;
+    margin-top:40px;
+    position: relative;
+    z-index: 1;
+    top:40px;
+}
+.Handshow_contact
+{
+    width : 300px;
+    height : 200px;
+    background-image: url("/public/photos/show.png");
+    background-size: cover;
+    margin-right:130px;
+
+}
+.nav_contact
+{
+    position: sticky;
+    top:0px;
+    left:0px;
+    
+}
+
+
+.background_help_contact
+{
+    background-image: url("/public/photos/Donateblood.png");
+    background-size:100% 450px;
+    width:100%;
+    background-size: cover;
+    height:450px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.background_help_contact::after
+{
+    content: "";
+    position: absolute;
+    background-color: rgba(8, 7, 7, 0.5);
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.background_help_contact .middle_conatct
+{
+    border:px solid black;
+    position: relative;
+    z-index: 1;
+}
+.background_help_contact .middle_conatct .startDonating_contact
+{
+    color:var(--white-nav-text);
+    font-weight: bold;
+    font-size: 48px;
+} 
+.background_help_contact .middle_conatct .home_option_contact  {
+    color:var(--white-nav-text);
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.background_help_contact .middle_conatct .span_primary
+{
+    color: var(--primary-color);
+}
+.background_help_contact .middle_conatct .home_option_contact 
+{
+    text-decoration:none;
+}
+/* .thanks
+{
+    background-color: var(--primary-color);
+    width:500px;
+    border: 2px solid black;
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    
+} */
+
+.thanks {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* You can customize the styles based on your design preferences */
+  

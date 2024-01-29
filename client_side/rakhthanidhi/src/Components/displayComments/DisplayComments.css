@@ -1,0 +1,16 @@
+.DisplayNavbar
+{
+    position: fixed;
+    top:0%;
+    left:0%;
+}
+.messageoFDisplay
+{
+    /* width:300px;
+    height:300px; */
+    width:300px;
+    border:2px solid black;
+    padding:10px;
+    box-shadow: 0 0 5pxr 0 gb(120, 120, 231);
+    margin: auto;
+}

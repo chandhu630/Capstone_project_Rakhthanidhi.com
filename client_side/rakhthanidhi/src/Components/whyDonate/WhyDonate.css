@@ -1,0 +1,190 @@
+
+ .nextlink
+ {
+  text-decoration: none;
+  color: var(--secondary-color);
+ }
+.why_flex_first
+{
+  display:flex;
+  border:px solid black;
+  justify-content: center;
+  margin-top: 60px;
+  align-items: center;
+}
+.Image_Width_why
+{
+  width:400px;
+  height:250px;
+}
+.Storing_First_two
+{
+  border:px solid red;
+  box-shadow: 0 0 6px 0 var(--secondary-color);
+  width:400px;
+  align-items: center;
+  height:300px;
+}
+.two_gap
+{
+  border:px solid red;
+  box-shadow: 0 0 6px 0 var(--secondary-color);
+  width:400px;
+  height:300px;
+  margin-left: 170px;
+}
+.fouth_gap
+{
+  margin-left:30px;
+  border:2px solid red;
+  width:200px;
+  height:150px;
+}
+  .questions-container {
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 80%; */
+  }
+  
+  .question-container {
+    margin-bottom: 10px;
+    /* width: 99%;   */
+    box-sizing: border-box;
+    border-bottom:0.2 px solid var(--secondary-color);
+   
+  }
+  
+  .question {
+    padding: 10px;
+    /* cursor: pointer; */
+   
+
+  }
+  .question:hover{
+    background-color:var(--primary-light-color);
+  }
+  .question.selected {
+    background-color:var(--primary-color);
+  }
+  
+  .answer {
+    padding: 10px;
+    background-color:var(--secondary-color);
+  }
+  
+  .answer {
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color:white;
+  }
+  .firstFive
+  {
+    /* display:flex;
+    flex-direction: row; */
+    border:px solid red;
+    box-shadow: 0 0 5px var(--secondary-color);
+    width:40%;
+    height: auto;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+  }
+ 
+  .image_que_one
+  {
+    
+    background-image:url("https://hindumissionhospital.in/wp-content/uploads/elementor/thumbs/stock-photo-the-hand-of-a-man-who-donates-blood-male-donor-gives-blood-in-a-mobile-blood-donation-center-1104323831-transformed-pr9psz49i8krji0sx3ei0gd6ksjxl1i41385rjylim.jpeg") ;
+    background-size: cover;
+    border-radius: 50%;
+    height:250px;
+    width:400px;
+    margin-right:70px;
+  }
+  .image2_que_two
+  {
+    background-image: url("/public/photos/tatu.png");
+    background-size: cover;
+    border-radius: 50%;
+    height:250px;
+    width:400px;
+    margin-left:70px;
+
+
+  }
+  .image3_que_three
+  {
+    background-image: url("https://img.freepik.com/premium-photo/plate-with-paleo-diet-food-boiled-eggs-avocado-cucumber-nuts-cherry-strawberries-paleo-breakfast_2829-3702.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    height:250px;
+    width:400px;
+    margin-right:70px;
+  }
+  .image4_que_four
+  {
+  background-image: url("https://img.etimg.com/photo/msid-76852885,imgsize-622136/mask_iStock.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  height:250px;
+  margin-left:70px;
+  width:400px;
+  }
+
+  .firstDiv
+  {
+    display: flex;
+    margin: auto;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .image_que_one {
+    animation: shake 0.5s ease 1;
+  }
+  
+  .image2_que_two {
+    animation: shake 0.5s ease 1;
+  }
+  
+  .image3_que_three {
+    animation: shake 0.5s ease 1;
+  }
+  
+  .image4_que_four {
+    animation: shake 0.5s ease 1;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+  }
+  
+.navbarbottom
+{
+  margin-bottom:150px;
+}
+.firstHalf
+{
+  border:2px solid black;
+  margin-top: 100px;
+  border: none;
+}
+.HrLine
+{
+  margin-top: 20px;
+  border:0.1px solid var(--secondary-color);
+  margin-left: 65px;
+  margin-right: 65px;
+}

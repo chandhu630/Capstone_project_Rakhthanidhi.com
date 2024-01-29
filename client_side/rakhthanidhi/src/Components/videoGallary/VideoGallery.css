@@ -1,0 +1,42 @@
+
+.video_heading
+{
+    color:var(--secondary-color);
+    margin: auto;
+    text-align:center;
+    line-height: 2.5;
+    text-decoration:underline 2px solid red;
+}
+.videobtn
+{
+    width:50px;
+    height:50px;
+}
+.video_container
+{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.overlay_text_video 
+{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: 500;
+    color:var(--white-nav-text);
+    z-index: 1;
+    font-size: 25px;
+}
+.video_btn
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;  
+}
